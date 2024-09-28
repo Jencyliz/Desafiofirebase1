@@ -48,6 +48,9 @@ form {
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 input[type="text"],
@@ -61,18 +64,24 @@ button {
   font-size: 16px;
 }
 
+/* Estilo para los inputs ajustados */
 input[type="text"],
 input[type="email"] {
   background-color: #2c2c2c;
   color: #ffffff;
   outline: none;
   border: 2px solid #ff1a75;
+  padding: 6px 10px; 
+  font-size: 14px; 
+  width: 200px; 
+  border-radius: 5px;
 }
 
 input[type="text"]:focus,
 input[type="email"]:focus {
   border-color: #ff6ec7;
 }
+
 
 button {
   background: linear-gradient(45deg, #ff1a75, #ff6ec7);
